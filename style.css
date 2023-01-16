@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+*{
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+html,body{
+   
+    font-weight: 500;
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    max-height: 1440px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.container{
+    display: flex;
+    position: relative;
+}
+
+.cc{
+    position: absolute;
+    top: 150px;
+}
+.cFront{
+    position: absolute;
+    left: 150px;
+}
+.cLogo{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+}
+.cBack{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+.cInfo{
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 180px;
+    color: #fff;
+}
+.cNumber{
+    position: absolute;
+    top: 70px;
+    width: 451px;
+    font-size: 34px;
+}
+.cName{
+    position: absolute;
+    top: 157px;
+    width: 128px;
+    text-transform: uppercase;
+}
+.cDate{
+    position: absolute;
+    top: 157px;
+    left: 325px;
+    text-transform: uppercase;
+}
+.cCVC{
+    position: absolute;
+    top: 395px;
+    left: 600px;
+    text-transform: uppercase;
+}
+
+  
+  label,input{
+    position: relative;
+    top: 200px;
+    left: 500px;
+    margin-bottom: 30px;
+
+  }
+
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+font-size: 18px;
+border: 1px solid hsl(270, 3%, 87%);
+border-radius: 10px;
+}
+input:active{
+    border: 1px solid hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+    outline: 1px;
+}
+.date{
+    width: 90px;
+    height: 30px;
+}
+.cvc{
+    position: absolute;
+    top: 425px;
+    left: 1200px;
+    width: 183px;
+    height: 30px;
+}
+.cvcText{
+    position: absolute;
+    top: 400px;
+    left: 1200px;
+}
+.iNumber{
+    width: 400px;
+    height: 40px;
+}
+.iName{
+    width: 400px;
+    height: 40px;
+}
+.btn-submit{   
+     position: absolute;
+    top: 509px;
+    left: 983px;
+    width: 408px;
+    height: 50px;
+    color: #fff;
+    background-color: hsl(278, 68%, 11%);
+    border-radius: 10px;
+}
+.hidden{
+    display: none;
+}
+.attribution{
+    position: relative;
+    
+}
+.end{
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    left: 1000px;
+    top: 290px;
+}
+
+.end button{
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: hsl(278, 68%, 11%);
+    border-radius: 10px;
+}
